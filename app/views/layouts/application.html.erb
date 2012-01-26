@@ -3,12 +3,12 @@
   <head>
     <title> Title </title>
     <%= stylesheet_link_tag    "application" %>
-    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <%= stylesheet_link_tag    "print", :media => "print" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tag %>
   </head>
   <body>
-    <div id="container">
+    <div id="content">
       <% flash.each do |name, msg| %>
 	<%= content_tag :div, msg, :id => "flash_#{name}" %>
       <% end %>

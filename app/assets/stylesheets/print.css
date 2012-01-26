@@ -1,43 +1,41 @@
-/* credits to Eric Meyer */
-
+* {
+  font-familiy: Arial, serif;
+  text-align: justify;
+}
 body {
-   background: white;
-background: red;
-   font-size: 12pt;
-   }
-#menu {
-   display: none;
-   }
-#wrapper, #content {
-   width: auto;
-   margin: 0 5%;
-   padding: 0;
-   border: 0;
-   float: none !important;
-   color: black;
-   background: transparent none;
-   }
-div#content {
-   margin-left: 10%;
-   padding-top: 1em;
-   border-top: 1px solid #930;
-   }
-div#mast {
-   margin-bottom: -8px;
-   }
-div#mast img {
-   vertical-align: bottom;
-   }
-a:link, a:visited {
-   color: #520;
-   background: transparent;
-   font-weight: bold;
-   text-decoration: underline;
-   }
-#content a:link:after, #content a:visited:after {
-   content: " (" attr(href) ") ";
-   font-size: 90%;
-   }
-#content a[href^="/"]:after {
-   content: " (http://www.alistapart.com" attr(href) ") ";
-   }
+  background: white !important;
+  background-image: none !important;
+  font-size: 12pt;
+  color: black;
+  margin: 0 5%;
+  width: 660px;
+}
+#content {
+  width: auto;
+  padding: 0;
+  border: 0;
+  float: none !important;
+  background: transparent none;
+}
+.noprint {
+  display: none;
+}
+
+a[href]:after {
+  content: " <" attr(href) "> ";
+  color: #888;
+  font-style: italic;
+  font-size: 80%;
+}
+img[alt]:after {
+  content: " (" attr(alt) ") ";
+}
+h1, h2, h3, h4, h5 {
+  font-size: 13pt;
+  line-height: 110%;
+  margin: 0;
+  padding: 0;
+}
+dl, dt, dd {
+  float: none !important;
+}
