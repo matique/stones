@@ -8,6 +8,7 @@ class << ActiveRecord::Base
 
 end
 
+
 class << ActionController::Base
 
   def concerned_with(*concerns)
@@ -17,3 +18,5 @@ class << ActionController::Base
   end
 
 end
+
+
