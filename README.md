@@ -14,3 +14,11 @@ app/assets/stylesheets/reset.css
 app/views/layouts/application.html.erb
 app/views/shared/_error_explanation.html.erb
 app/views/shared/_flash.html.erb
+
+
+Recommended
+===========
+
+- rvm
+- ruby 1.9.3
+- rails 3
