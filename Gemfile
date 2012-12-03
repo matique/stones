@@ -1,8 +1,8 @@
 source "http://rubygems.org"
 
-gem 'rails', '3.1.3'
-gem 'jquery-rails'
-gem 'rows_controller'
+gem 'rails'
+#gem 'jquery-rails'
+#gem 'rows_controller'
 
 group :test do
   gem "capybara"
