@@ -1,0 +1,8 @@
+div#wrapper
+  = render 'layouts/header'
+  = render 'layouts/flash', flash: flash
+  div#content
+    = yield :layout
+  div#push
+footer
+  = render 'layouts/footer'
