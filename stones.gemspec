@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version     = Stones::VERSION
   s.platform    = Gem::Platform::RUBY
   s.summary     = "Stones contains some basic files."
-  s.description = "A collection of, hopefully, useful file."
+  s.description = "A collection of, hopefully, useful files."
   s.authors     = ['Dittmar Krall']
   s.email       = ['dittmar.krall@matique.de']
   s.homepage    = 'http://matique.de'
