@@ -17,15 +17,6 @@ end
 namespace :db do
   namespace :backup do
 
-#    desc "Reload the database and rerun migrations"
-#    task :redo do
-#      Rake::Task['db:backup:write'].invoke
-#      Rake::Task['db:drop'].invoke
-#      Rake::Task['db:create'].invoke
-#      Rake::Task['db:migrate'].invoke
-#      Rake::Task['db:backup:read'].invoke
-#    end
-
     desc "Dump entire db."
     task :write => :environment do
       FileUtils.chdir(dir)
