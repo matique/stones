@@ -1,4 +1,7 @@
-- str = "| #{APP.capitalize} #{VERSION} | Rails #{Rails.version} | #{STARTED_AT}"
+ruby:
+  ruby = "Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
+  rails = "Rails #{Rails.version} (#{Rails.env})"
+  str = "| #{APP.capitalize} #{VERSION} | #{ruby} | #{rails} | #{STARTED_AT}"
 
 table
   tr
