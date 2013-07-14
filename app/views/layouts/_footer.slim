@@ -1,4 +1,13 @@
-- str = "| #{APP.capitalize} #{VERSION} | Rails #{Rails.version} | #{STARTED_AT}"
+ruby:
+  app = "#{APP.capitalize} #{VERSION}"
+  if Rails.env.production?
+    ruby = "Ruby #{RUBY_VERSION}"
+    rails = "Rails #{Rails.version}"
+  else
+    ruby = "Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
+    rails = "Rails #{Rails.version} (#{Rails.env})"
+  end
+  str = "| #{app} | #{ruby} | #{rails} | #{STARTED_AT}"
 
 table
   tr
