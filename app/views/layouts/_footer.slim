@@ -1,7 +1,13 @@
 ruby:
-  ruby = "Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
-  rails = "Rails #{Rails.version} (#{Rails.env})"
-  str = "| #{APP.capitalize} #{VERSION} | #{ruby} | #{rails} | #{STARTED_AT}"
+  app = "#{APP.capitalize} #{VERSION}"
+  if Rails.env.production?
+    ruby = "Ruby #{RUBY_VERSION}"
+    rails = "Rails #{Rails.version}"
+  else
+    ruby = "Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
+    rails = "Rails #{Rails.version} (#{Rails.env})"
+  end
+  str = "| #{app} | #{ruby} | #{rails} | #{STARTED_AT}"
 
 table
   tr
