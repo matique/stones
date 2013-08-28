@@ -58,3 +58,4 @@ tr {page-break-inside: avoid;}
 footer table {
   border-top: 0;
 }
+a img {display:none;}
