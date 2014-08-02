@@ -1,5 +1,5 @@
 ruby:
-  app = "#{APP.capitalize} #{VERSION}"
+  app = "#{APP.capitalize} #{APP_VERSION || VERSION}"
   if Rails.env.production?
     ruby = "Ruby #{RUBY_VERSION}"
     rails = "Rails #{Rails.version}"
