@@ -23,7 +23,8 @@ namespace :db do
       interesting_tables.each do |tbl|
 	klass = tbl.classify.constantize
 	puts "Writing #{tbl}..."
-	File.open("#{tbl}.yml", 'w+') { |f| YAML.dump klass.find(:all).collect(&:attributes), f }
+#        File.open("#{tbl}.yml", 'w+') { |f| YAML.dump klass.find(:all).collect(&:attributes), f }
+	File.open("#{tbl}.yml", 'w+') { |f| YAML.dump klass.all.collect(&:attributes), f }
       end
       FileUtils.chdir(Rails.root)
     end
