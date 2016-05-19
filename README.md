@@ -21,13 +21,21 @@ Files:
     app/views/layouts/_body.slim
     app/views/layouts/_flash.slim
     app/views/layouts/_footer.slim
+    app/views/layouts/_header.slim
     app/views/layouts/_html_head.slim
+    app/views/layouts/_nav.slim
     app/views/shared/_error_explanation.html.erb
     config/initializers/concerns.rb
 
+Installation
+------------
+To install add the following to your Gemfile:
+    gem 'stones'
+
+and run bundle.
 
 Recommended
-===========
+-----------
 
 - rvm
 - ruby 2.3.1
