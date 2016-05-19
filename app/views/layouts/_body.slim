@@ -1,8 +1,6 @@
-div#wrapper
+body
   = render 'layouts/header'
-  = render 'layouts/flash', flash: flash
-  div#content
+  = render 'layouts/nav'
+  main
     = yield :layout
-  div#push
-footer
   = render 'layouts/footer'
