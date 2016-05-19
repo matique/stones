@@ -30,6 +30,7 @@ Files:
 Installation
 ------------
 To install add the following to your Gemfile:
+
     gem 'stones'
 
 and run bundle.
