@@ -37,3 +37,4 @@ Dropped/cleaned files (still available in version 0.2.5):
 
 - Rakefile
 - .watchr
+- lib/tasks/backup.rake

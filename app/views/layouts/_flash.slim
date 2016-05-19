@@ -1,5 +1,5 @@
 - (flash || {}).each do |key, value|
-  p(class="flash_#{key}") #{sanitize(value)}
-  - if key.to_s == 'notice'
-    script(type="text/javascript")
-      | $('.flash_notice').fadeOut(5000, function() { $(this).remove(); });
+ p(class="flash_#{key}") #{sanitize(value)}
+ - if key.to_s == 'notice'
+   script(type="text/javascript")
+     | $('.flash_notice').fadeOut(5000, function() { $(this).remove(); });
