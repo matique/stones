@@ -4,7 +4,8 @@ Stones
 Each time I created a new Rails project these files are required.
 I got tired of it and collected them in a gem.
 
-Some files (e.g. reset.css) are overwritten by the corresponding ones fom the project.
+Some files (e.g. reset.css) can be overwritten by a
+corresponding ones from your project.
 Some files (e.g. .watchr) may be copied to your project.
 
 
@@ -26,6 +27,7 @@ Files:
     app/views/layouts/_nav.slim
     app/views/shared/_error_explanation.html.erb
     config/initializers/concerns.rb
+    .watchr
 
 Installation
 ------------
