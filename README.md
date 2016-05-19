@@ -30,5 +30,10 @@ Recommended
 ===========
 
 - rvm
-- ruby 2.1.1
-- rails 4.1
+- ruby 2.3.1
+- rails 5.0
+
+Dropped/cleaned files (still available in version 0.2.5):
+
+- Rakefile
+- .watchr
