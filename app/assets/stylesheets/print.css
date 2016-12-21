@@ -9,10 +9,12 @@ body {
   width:100% !important;
   margin:0 !important;
   padding:0 !important;
-xline-height: 1.4;
-xword-spacing:1.1pt;
-xletter-spacing:0.2pt;
-xfont-family: Garamond,"Times New Roman", serif;
+/*
+  line-height: 1.4;
+  word-spacing:1.1pt;
+  letter-spacing:0.2pt;
+  font-family: Garamond,"Times New Roman", serif;
+ */
   color: #000;
   background: none;
   font-size: 12pt;
