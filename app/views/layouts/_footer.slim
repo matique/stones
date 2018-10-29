@@ -1,13 +1,15 @@
 ruby:
-  app = "#{APP.capitalize} #{APP_VERSION || VERSION}"
+  # several constants, formies and helpers are required
+  app = "#{APP.upcase} #{APP_VERSION || VERSION}"
   if Rails.env.production?
-    ruby = "Ruby #{RUBY_VERSION}"
-    rails = "Rails #{Rails.version}"
+    footer_right = "started at #{STARTED_AT}"
   else
     ruby = "Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
     rails = "Rails #{Rails.version} (#{Rails.env})"
+    footer_right = "#{rails} | #{ruby} | #{STARTED_AT}"
   end
-  str = "| #{app} | #{ruby} | #{rails} | #{STARTED_AT}"
 
-footer
-  div #{copyright} #{str}
+footer style="display: flex; justify-content: space-between;"
+  div #{copyright} | #{link_to app.html_safe, about_path}
+  div = footer_center
+  div = footer_right
