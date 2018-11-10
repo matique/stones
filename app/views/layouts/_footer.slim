@@ -1,15 +1,29 @@
 ruby:
-  # several constants, formies and helpers are required
+  # just a footer
+  # feel free to modify to your needs
+  # several constants and helpers are required
+
+  separator = ' | '
   app = "#{APP.upcase} #{APP_VERSION || VERSION}"
+  year = Time.now.year
+
   if Rails.env.production?
-    footer_right = "started at #{STARTED_AT}"
+    info_dev = "started at #{STARTED_AT}"
   else
     ruby = "Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
     rails = "Rails #{Rails.version} (#{Rails.env})"
-    footer_right = "#{rails} | #{ruby} | #{STARTED_AT}"
+    info_dev = "#{rails} | #{ruby} | #{STARTED_AT}"
   end
 
-footer style="display: flex; justify-content: space-between;"
-  div #{copyright} | #{link_to app.html_safe, about_path}
-  div = footer_center
-  div = footer_right
+footer
+ div
+   a href='http://matique.de' &copy; #{year} matique UG
+   = separator
+   = link_to app.html_safe, about_path
+ div
+   = link_to ts(:terms, :button), 'http://matique.de/de/gtc'
+   = separator
+   = link_to ts(:privacy, :button), 'http://matique.de/de/privacy-policy'
+   = separator
+   = link_to ts(:impressum, :button), 'http://matique.de/de/about'
+ div = info_dev
