@@ -1,0 +1,49 @@
+/ A simple about rounded box
+
+/  Requires locals: { title: 'A Title' }
+/  and several predefined constants.
+
+/ Usage:
+/  app/controllers/root.rb:
+/
+/   def about
+/      render 'about', locals: { title: 'An Application' }
+/   end
+
+
+ruby:
+  app = "#{APP.capitalize} #{APP_VERSION || VERSION}"
+  if Rails.env.production?
+    ruby = "Ruby #{RUBY_VERSION}"
+    rails = "Rails #{Rails.version}"
+  else
+    ruby = "Ruby #{RUBY_VERSION}-p#{RUBY_PATCHLEVEL}"
+    rails = "Rails #{Rails.version} (#{Rails.env})"
+  end
+
+css:
+  div#about {
+    height: 70%;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  div#about div#rounded-box {
+    border: 1px solid grey;
+    border-radius: 0.3em;
+    padding: 5px 8px;
+  }
+
+div#about
+ div#rounded-box
+  - if title
+    h1 = title
+    hr
+  div #{app}
+  div #{rails}
+  div #{ruby}
+  div Started at #{STARTED_AT}
+  div Time #{Time.now.strftime(DATE_TIME_FORMAT)}
