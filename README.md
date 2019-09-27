@@ -41,8 +41,8 @@ Recommended
 -----------
 
 - rvm
-- ruby 2.5.1
-- rails 5.2
+- ruby 2.6.4
+- rails 6.0
 
 Dropped/cleaned files (still available in version 0.2.5):
 
