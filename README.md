@@ -5,9 +5,7 @@ Each time I created a new Rails project these files are required.
 I got tired of it and collected them in a gem.
 
 Some files (e.g. reset.css) can be overwritten by a
-corresponding ones from your project.
-Some files (e.g. .watchr) may be copied to your project.
-
+corresponding one from your project.
 
 Files:
 
@@ -41,7 +39,7 @@ Recommended
 -----------
 
 - rvm
-- ruby 2.6.4
+- ruby 2.6.5
 - rails 6.0
 
 Dropped/cleaned files (still available in version 0.2.5):
