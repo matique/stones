@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+# rubocop: disable all
 
 module Stones
   VERSION = '1.1.1'     # 2020-03-22
