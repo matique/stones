@@ -22,10 +22,9 @@ Files:
     app/views/layouts/_footer.slim
     app/views/layouts/_header.slim
     app/views/layouts/_html_head.slim
-    app/views/layouts/_nav.slim
+    app/views/root/about.slim
     app/views/shared/_error_explanation.html.erb
     config/initializers/concerns.rb
-    .watchr
 
 Installation
 ------------
@@ -39,8 +38,8 @@ Recommended
 -----------
 
 - rvm
-- ruby 2.6.5
-- rails 6.0
+- ruby 2.7.2
+- rails 6.1
 
 Dropped/cleaned files (still available in version 0.2.5):
 

@@ -10,7 +10,6 @@
 /      render 'about', locals: { title: 'An Application' }
 /   end
 
-
 ruby:
   app = "#{APP.capitalize} #{APP_VERSION || VERSION}"
   if Rails.env.production?
@@ -37,8 +36,8 @@ css:
     padding: 5px 8px;
   }
 
-div#about
- div#rounded-box
+#about
+ #rounded-box
   - if title
     h1 = title
     hr
