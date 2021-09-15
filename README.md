@@ -1,5 +1,6 @@
 Stones
 ======
+[![Gem Version](https://badge.fury.io/rb/stones.png)](http://badge.fury.io/rb/stones)
 
 Each time I created a new Rails project these files are required.
 I got tired of it and collected them in a gem.
