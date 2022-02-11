@@ -39,11 +39,16 @@ Recommended
 -----------
 
 - rvm
-- ruby 2.7.2
-- rails 6.1
+- ruby 3.1.0
+- rails 7.0.1
 
 Dropped/cleaned files (still available in version 0.2.5):
 
 - Rakefile
 - .watchr
 - lib/tasks/backup.rake
+
+Rails
+-----
+
+"stones" takes care of a "<head>" change introduced by Rails 7.x.

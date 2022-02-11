@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.summary = "Stones contains some basic files."
   s.description = "A collection of, hopefully, useful files."
   s.authors = ["Dittmar Krall"]
-  s.email = ["dittmar.krall@matique.de"]
-  s.homepage = "http://matique.de"
+  s.email = ["dittmar.krall@matique.com"]
+  s.homepage = "http://matique.com"
   s.license = "MIT"
 
   s.metadata["source_code_uri"] = "https://github.com/matique/stones"
