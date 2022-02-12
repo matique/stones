@@ -51,4 +51,4 @@ Dropped/cleaned files (still available in version 0.2.5):
 Rails
 -----
 
-"stones" takes care of a "<head>" change introduced by Rails 7.x.
+"stones" takes care of a tag-head change introduced by Rails 7.x.
