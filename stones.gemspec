@@ -9,15 +9,13 @@ Gem::Specification.new do |s|
   s.summary = "Stones contains some basic files."
   s.description = "A collection of, hopefully, useful files."
   s.authors = ["Dittmar Krall"]
-  s.email = ["dittmar.krall@matique.com"]
-  s.homepage = "http://matique.com"
+  s.email = ["dittmar.krall@matiq.com"]
+  s.homepage = "http://matiq.com"
   s.license = "MIT"
 
   s.metadata["source_code_uri"] = "https://github.com/matique/stones"
 
   s.files = `git ls-files`.split("\n")
-  #  s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
-  #  s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
   s.add_development_dependency "bundler"
