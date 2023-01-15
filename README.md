@@ -1,5 +1,5 @@
-Stones
-======
+# Stones
+
 [![Gem Version](https://badge.fury.io/rb/stones.png)](http://badge.fury.io/rb/stones)
 
 Each time I created a new Rails project these files are required.
@@ -27,20 +27,20 @@ Files:
     app/views/shared/_error_explanation.html.erb
     config/initializers/concerns.rb
 
-Installation
-------------
-To install add the following to your Gemfile:
+## Installation
 
-    gem 'stones'
+As usual:
+```ruby
+# Gemfile
+gem "stones"
+```
+and run "bundle install".
 
-and run bundle.
-
-Recommended
------------
+## Recommended
 
 - rvm
-- ruby 3.1.0
-- rails 7.0.1
+- ruby 3.1+
+- rails 7.0+
 
 Dropped/cleaned files (still available in version 0.2.5):
 
@@ -48,7 +48,13 @@ Dropped/cleaned files (still available in version 0.2.5):
 - .watchr
 - lib/tasks/backup.rake
 
-Rails
------
+## Rails
 
 "stones" takes care of a tag-head change introduced by Rails 7.x.
+
+## Miscellaneous
+
+Copyright (c) 2012-2022 Dittmar Krall (www.matiq.com),
+released under the MIT license:
+
+* https://opensource.org/licenses/MIT
