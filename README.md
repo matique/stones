@@ -54,7 +54,7 @@ Dropped/cleaned files (still available in version 0.2.5):
 
 ## Miscellaneous
 
-Copyright (c) 2012-2022 Dittmar Krall (www.matiq.com),
+Copyright (c) 2012-2023 Dittmar Krall (www.matiq.com),
 released under the MIT license:
 
 * https://opensource.org/licenses/MIT

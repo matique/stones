@@ -17,7 +17,4 @@ Gem::Specification.new do |s|
 
   s.files = `git ls-files`.split("\n")
   s.require_paths = ["lib"]
-
-  s.add_development_dependency "bundler"
-  s.add_development_dependency "rake"
 end
