@@ -2,7 +2,8 @@
 # rubocop: disable all
 
 module Stones
-  VERSION = '1.2.3' # 2023-07-19
+  VERSION = '1.2.4' # 2023-12-13
+  # VERSION = '1.2.3' # 2023-07-19
   # VERSION = '1.2.2' # 2023-04-15
   # VERSION = '1.2.1' # 2022-09-29
   # VERSION = '1.2.0' # 2022-02-12
