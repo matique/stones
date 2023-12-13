@@ -10,10 +10,8 @@ Gem::Specification.new do |s|
   s.description = "A collection of, hopefully, useful files."
   s.authors = ["Dittmar Krall"]
   s.email = ["dittmar.krall@matiq.com"]
-  s.homepage = "http://matiq.com"
+  s.homepage = "https://github.com/matique/stones"
   s.license = "MIT"
-
-  s.metadata["source_code_uri"] = "https://github.com/matique/stones"
 
   s.files = `git ls-files`.split("\n")
   s.require_paths = ["lib"]

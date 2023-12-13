@@ -1,6 +1,7 @@
 # Stones
 
 [![Gem Version](https://badge.fury.io/rb/stones.png)](http://badge.fury.io/rb/stones)
+[![GEM Downloads](https://img.shields.io/gem/dt/stones?color=168AFE&logo=ruby&logoColor=FE1616)](https://rubygems.org/gems/stones)
 
 Each time I created a new Rails project these files are required.
 I got tired of it and collected them in a gem.
@@ -55,6 +56,4 @@ Dropped/cleaned files (still available in version 0.2.5):
 ## Miscellaneous
 
 Copyright (c) 2012-2023 Dittmar Krall (www.matiq.com),
-released under the MIT license:
-
-* https://opensource.org/licenses/MIT
+released under the [MIT license](https://opensource.org/licenses/MIT).
