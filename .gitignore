@@ -5,3 +5,5 @@ coverage/
 *.gem
 *.log
 *.lock
+
+**/db/*.sqlite3
