@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = Dir["README.md", "MIT-LICENSE"]
 
   s.require_paths = ["lib"]
-  s.required_ruby_version = ">= 3.3.0"
+  # s.required_ruby_version = ">= 3.3.0"
 
   s.add_development_dependency "combustion"
   s.add_development_dependency "minitest"
