@@ -41,7 +41,7 @@ and run "bundle install".
 ## Recommended
 
 - rvm
-- ruby 3.1+
+- ruby 3.3+
 - rails 7.0+
 
 Dropped/cleaned files (still available in version 0.2.5):
@@ -49,6 +49,26 @@ Dropped/cleaned files (still available in version 0.2.5):
 - Rakefile
 - .watchr
 - lib/tasks/backup.rake
+
+## AboutComponent
+
+### Usage
+```ruby
+...
+render AboutComponent(title: "My App", text: "Does something")
+...
+```
+
+## FlashComponent
+
+### Usage
+```ruby
+...
+flash[:error] = "Something failed"
+...
+render FlashComponent.new(flash)
+...
+```
 
 ## Rails
 
