@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        ruby: ["3.3", head]
+        ruby: ["3.2", "3.3"]
         test_command: ["bundle exec rake test"]
     runs-on: ${{ matrix.os }}
 
@@ -20,6 +20,7 @@ jobs:
         ruby-version: ${{ matrix.ruby }}
     - name: Bundle install
       run: |
+        bundle config set frozen false
         bundle config path /home/runner/bundle
         bundle install
         bundle update

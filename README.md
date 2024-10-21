@@ -1,7 +1,10 @@
 # Stones
 
-[![Gem Version](https://badge.fury.io/rb/stones.png)](http://badge.fury.io/rb/stones)
+[![Gem Version](https://badge.fury.io/rb/stones.svg)](http://badge.fury.io/rb/stones)
 [![GEM Downloads](https://img.shields.io/gem/dt/stones?color=168AFE&logo=ruby&logoColor=FE1616)](https://rubygems.org/gems/stones)
+[![rake](https://github.com/matique/stones/actions/workflows/rake.yml/badge.svg)](https://github.com/matique/stones/actions/workflows/rake.yml)
+[![Ruby Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://github.com/standardrb/standard)
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](http://choosealicense.com/licenses/mit/)
 
 Each time I created a new Rails project these files are required.
 I got tired of it and collected them in a gem.
