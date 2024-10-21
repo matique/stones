@@ -22,6 +22,7 @@ Files:
     app/assets/stylesheets/print.css
     app/assets/stylesheets/reset.css
     app/components/about_component.rb
+    app/components/flash_component.rb
     app/views/layouts/application.html.erb
     app/views/layouts/_body.slim
     app/views/layouts/_flash.slim
@@ -45,7 +46,7 @@ and run "bundle install".
 
 - rvm
 - ruby 3.3+
-- rails 7.0+
+- rails 7.2+
 
 Dropped/cleaned files (still available in version 0.2.5):
 
