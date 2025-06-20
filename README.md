@@ -80,5 +80,5 @@ render FlashComponent.new(flash)
 
 ## Miscellaneous
 
-Copyright (c) 2012-2024 Dittmar Krall (www.matiq.com),
+Copyright (c) 2012-2025 Dittmar Krall (www.matiq.com),
 released under the [MIT license](https://opensource.org/licenses/MIT).

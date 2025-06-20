@@ -2,9 +2,9 @@
 coverage/
 .watchr
 
-*.gem
-*.log
-*.lock
+**/*.gem
+**/*.log
+**/*.lock
 
 **/db/*.sqlite3
 **/db/*.sqlite3-*

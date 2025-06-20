@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        ruby: ["3.2", "3.3"]
+        ruby_version: [head, "3.4", "3.2"]
         test_command: ["bundle exec rake test"]
     runs-on: ${{ matrix.os }}
 
@@ -17,7 +17,7 @@ jobs:
     - uses: actions/checkout@v4
     - uses: ruby/setup-ruby@v1
       with:
-        ruby-version: ${{ matrix.ruby }}
+        ruby-version: ${{ matrix.ruby_version }}
     - name: Bundle install
       run: |
         bundle config set frozen false
