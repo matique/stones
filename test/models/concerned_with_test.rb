@@ -2,14 +2,14 @@ require "test_helper"
 
 class ModelConcernedWithTest < ActiveSupport::TestCase
   def setup
-    @ctrl = Order.new
+    @model = Order.new
   end
 
   test "controller" do
-    assert_equal "X", @ctrl.x
+    assert_equal "X", @model.x
   end
 
   test "concerned_with :utils" do
-    assert_equal "Y", @ctrl.y
+    assert_equal "Y", @model.y
   end
 end
