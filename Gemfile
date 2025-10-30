@@ -8,7 +8,7 @@ group :test do
   gem "capybara"
   gem "cuco"
   gem "minitest-spec-rails"
-  gem "ricecream", require: false
+  gem "ricecream"
   gem "simplecov", require: false
   gem "slim"
   gem "sqlite3"
