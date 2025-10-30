@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 module Stones
-  VERSION = "1.3.2" # 2025-06-20
+  VERSION = "1.3.3" # 2025-10-30
+  # VERSION = "1.3.2" # 2025-06-20
   # VERSION = "1.3.1" # 2024-10-21
   # VERSION = "1.3.0" # 2024-04-20
   # VERSION = "1.2.4" # 2023-12-13
