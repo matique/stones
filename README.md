@@ -31,7 +31,7 @@ Files:
     app/views/layouts/_html_head.slim
     app/views/root/about.slim
     app/views/shared/_error_explanation.html.erb
-    config/initializers/concerns.rb
+    # config/initializers/concerns.rb # OBSOLETE & removed
 
 ## Installation
 
