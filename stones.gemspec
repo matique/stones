@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require_relative "lib/stones/version"
 
 Gem::Specification.new do |s|
@@ -13,6 +11,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/matique/stones"
   s.license = "MIT"
 
+  # s.files = Dir["{app,lib}/**/*", "MIT-LICENSE", "README.md"] ???
   s.files = Dir["lib/**/*"]
   s.files += Dir["app/**/*"]
   s.files += Dir["config/**/*"]
