@@ -1,5 +1,5 @@
 class << ActiveRecord::Base
-  def concerned_with(*concerns)
+  def my_concerned_with(*concerns)
     concerns.each do |concern|
       require_dependency "#{name.underscore}/#{concern}"
     end
@@ -7,7 +7,7 @@ class << ActiveRecord::Base
 end
 
 class << ActionController::Base
-  def concerned_with(*concerns)
+  def my_concerned_with(*concerns)
     concerns.each do |concern|
       require_dependency "#{name.underscore}/#{concern}"
     end

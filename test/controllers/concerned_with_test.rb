@@ -9,7 +9,7 @@ class ControllerConcernedWithTest < ActiveSupport::TestCase
     assert_equal "X", @ctrl.x
   end
 
-  test "concerned_with :utils" do
+  test "my_concerned_with :utils" do
     assert_equal "Y", @ctrl.y
   end
 end

@@ -9,7 +9,7 @@ class ModelConcernedWithTest < ActiveSupport::TestCase
     assert_equal "X", @model.x
   end
 
-  test "concerned_with :utils" do
+  test "my_concerned_with :utils" do
     assert_equal "Y", @model.y
   end
 end

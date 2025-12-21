@@ -1,5 +1,5 @@
 class Order < ApplicationRecord
-  concerned_with :utils
+  my_concerned_with :utils
 
   def x = "X"
 end
