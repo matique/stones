@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class AboutComponent < ViewComponent::Base
   def initialize(text: "", title: nil, system_text: nil)
     @title = title
